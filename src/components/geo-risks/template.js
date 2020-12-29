@@ -1,0 +1,20 @@
+import html, {riskHtmlMapper} from '../../templates/helpers';
+
+const template = (context) => {
+  return context.api.getRiskFactors().then((risks) => {
+    return html`
+      <h5 class="card-title">Please select where you <strong>live</strong> or have recently
+      <strong>traveled</strong> to.</h5>
+      <div class="card-text">
+        <form>
+          ${riskHtmlMapper(risks, context.locationRiskFactors)}
+        </form>
+        <p class="text-muted small">
+          <i class="fa fa-info-circle"></i> Above you see risk factors related to geographical location.
+        </p>
+      </div>
+    `;
+  });
+};
+
+export default template;
