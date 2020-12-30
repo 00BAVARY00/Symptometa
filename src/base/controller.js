@@ -18,5 +18,7 @@ export default class Controller {
     this.view.destroy();
   }
 
-  beforeSetView(name) { }
+  beforeSetView(name) { // eslint-disable-line
+    // intentionally left blank
+  }
 }

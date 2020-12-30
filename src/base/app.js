@@ -9,5 +9,7 @@ export default class App {
     this.afterRender();
   }
 
-  afterRender() { }
+  afterRender() { // eslint-disable-line
+    // intentionally left blank
+  }
 }
