@@ -5,11 +5,11 @@ const template = (context) => {
         <div class="card-text">
           <form>
             <div class="form-group row">
-              <label for="input-sex" class="col-sm-3 col-form-label">Gender</label>
+              <label for="input-sex" class="col-sm-2 col-form-label">Gender</label>
               <div class="col-sm-10">      
                 <div class="custom-control custom-radio custom-control-inline" >
                   <input type="radio" id="sex-radio-inline-1" 
-                    name="sex-radio-inline" class="input-sex custom-control-input" value="male" >
+                    name="sex-radio-inline" class="input-sex custom-control-input" value="male" checked >
                   <label class="custom-control-label" for="sex-radio-inline-1">
                     <i class="fa fa-fw fa-male"></i> male
                   </label>
@@ -21,13 +21,13 @@ const template = (context) => {
                     <i class="fa fa-fw fa-female"></i> female
                   </label>
                 </div>
-                <div class="custom-control custom-radio custom-control-inline">
+                <-- <div class="custom-control custom-radio custom-control-inline">
                   <input type="radio" id="sex-radio-inline-3" 
                     name="sex-radio-inline" class="input-sex custom-control-input" value="مهندس مدني" checked>
                   <label class="custom-control-label" for="sex-radio-inline-3">
                     مهندس مدني
                   </label>
-                </div> 
+                </div> -->
               </div>
             </div> </br>
             <div class="form-group row">
