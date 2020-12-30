@@ -21,7 +21,7 @@ const template = (context) => {
                     <i class="fa fa-fw fa-female"></i> female
                   </label>
                 </div>
-                <-- <div class="custom-control custom-radio custom-control-inline">
+                <!-- <div class="custom-control custom-radio custom-control-inline">
                   <input type="radio" id="sex-radio-inline-3" 
                     name="sex-radio-inline" class="input-sex custom-control-input" value="مهندس مدني" checked>
                   <label class="custom-control-label" for="sex-radio-inline-3">
