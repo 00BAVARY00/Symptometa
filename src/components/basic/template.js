@@ -46,7 +46,7 @@ const template = (context) => {
           </form>
           <p class="text-muted small" style="position: absolute; bottom:8px; left:16px; font-size: 18px;">
             <i class="fa fa-info-circle"></i>
-            The gender and age attributes are two required elements of every request to diagnosis.
+            The gender and age attributes are required.
             </p>
         </div>
       `);
