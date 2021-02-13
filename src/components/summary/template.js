@@ -6,7 +6,7 @@ const conditionsHtmlMapper = (conditions) => {
       <div class="col-8">
         ${condition.name}
         ${condition.probability >= 0.2
-    ? `<i class="fa fa-fw fa-eye"></i><a href data-id="${condition.id}" class="explain">explain</a>` : ''}
+    ? `<i class="fa fa-eye"></i><a href data-id="${condition.id}" class="explain">explain</a>` : ''}
       </div>
       <div class="col-4">
         <div class="progress">
