@@ -8,7 +8,7 @@ const conditionsHtmlMapper = (conditions) => {
         ${condition.probability >= 0.2
     ? `<i class="fa fa-eye"></i><a href data-id="${condition.id}" class="explain">explain</a>` : ''}
       </div>
-      <div class="col-4">
+      <div >
         <div class="progress">
           <div class="progress-bar bg-info" role="progressbar" 
               style="width: ${Math.floor(condition.probability * 100)}%">
