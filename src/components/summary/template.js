@@ -3,7 +3,7 @@ import html from '../../templates/helpers';
 const conditionsHtmlMapper = (conditions) => {
   return conditions.map((condition) => `
     <div class="summary-item row">
-      <div class="col-8">
+      <div>
         ${condition.name}
         ${condition.probability >= 0.2
     ? `<i class="fa fa-eye"></i><a href data-id="${condition.id}" class="explain">explain</a>` : ''}
