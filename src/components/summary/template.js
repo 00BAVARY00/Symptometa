@@ -3,12 +3,12 @@ import html from '../../templates/helpers';
 const conditionsHtmlMapper = (conditions) => {
   return conditions.map((condition) => `
     <div class="summary-item row">
-      <div>
+      <div class="col-8">
         ${condition.name}
         ${condition.probability >= 0.2
     ? `<i class="fa fa-eye"></i><a href data-id="${condition.id}" class="explain">explain</a>` : ''}
       </div>
-      <div >
+      <div class="col-4">
         <div class="progress">
           <div class="progress-bar bg-info" role="progressbar" 
               style="width: ${Math.floor(condition.probability * 100)}%">
