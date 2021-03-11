@@ -19,9 +19,11 @@ const template = (context) => {
         <p>Identified observations:</p>
         <ul class="list-unstyled" id="observations">
         </ul>
-        <p class="text-muted small">
-          <i class="fa fa-info-circle"></i> This screen uses our NLP engine algorithm to extract symptoms 
+
+        <i class="fa fa-info-circle"></i> This screen uses our NLP engine algorithm to extract symptoms 
           from a written text.
+        <p class="text-muted small">
+          
           
         </p>
       </div>
