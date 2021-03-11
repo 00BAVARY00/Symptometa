@@ -26,7 +26,8 @@ const template = (context) => {
         <form>
           ${symptomHtmlMapper(suggestedSymptoms)}
         </form>
-
+        
+        </br> </br>
         <i class="fa fa-info-circle"></i>
           This is a list of symptoms suggested by our AI,
           based on the information gathered so far during the interview.
