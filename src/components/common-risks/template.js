@@ -8,11 +8,14 @@ const template = (context) => {
           <form>
             ${riskHtmlMapper(risks, context.commonRiskFactors)}
           </form>
-          <p class="text-muted small">
-            <i class="fa fa-info-circle"></i> 
-            We recommend the patient to read about common risk factors. Please read more about risk factors 
-            <a target="_blank" href="https://developer.infermedica.com/docs/diagnosis#common-risk-factors">here</a>.
-          </p>
+          
+          </br> </br> </br>        
+          <i class="fa fa-info-circle"></i> 
+            You can read more about risk factors 
+          <a target="_blank" href="https://developer.infermedica.com/docs/diagnosis#common-risk-factors">here</a>.
+          
+          <p class="text-muted small"></p>
+            
         </div>
       `;
   });
